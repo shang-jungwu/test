@@ -1,5 +1,4 @@
-
- <head>
+<head>
         <!--====== Style css ======-->
         <link rel="stylesheet" href="css/style.css">
         <!-- Required meta tags -->
@@ -17,7 +16,10 @@
     <body>
     <!-- NavBar  -->
 <nav id="index_top"class="navbar navbar-expand-lg fixed-top navbar-light bg-light">
-  <!-- 如果fixed-top拿掉就不會定格在視窗最上面，而是會因為滾動消失  -->
+  <!-- 如果fixed-top拿掉就#artwork{
+  color: blue;
+  text-align: center;
+}不會定格在視窗最上面，而是會因為滾動消失  -->
     <!-- bs的navbar也有dark版本，你可以試著改看看  -->
   <a class="navbar-brand" href="">Sofi的個人網頁
     <!-- 你也可以在這邊使用<img>標籤，放你自己的logo，如果不會就去首頁按F12，參考我是怎麼做的  -->
@@ -69,7 +71,6 @@
 <h2>Hi,</h2>
 <h1>我是蘇灰</h1>
 
-
 <p>一個<i>努力寫論文的</i><del>菸酒生QQ</del></p>
  
 <img id="picture1" src="https://images.pexels.com/photos/1903965/pexels-photo-1903965.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" width="30%" height="">
@@ -79,6 +80,41 @@
  <br>
  <br>
 
+<table class="table table-hover">
+<thead> //你可以把這個當作是table-head的縮寫
+<tr>
+<th>標題1</th>
+<th>標題2</th>
+<th>標題3</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>動森</td>
+<td>動森</td>
+<td>動森</td>
+</tr>
+</tbody>
+</table>
+
+<div class="text" id="artwork" style="#artwork">
+ <h3>作品集</h3>
+</div>
+<br>  
+<div class="container">
+<div class="row">
+<div class="col-4"><img id="picture1" src="https://images.pexels.com/photos/1903965/pexels-photo-1903965.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" width="30%" height="">
+  
+  </div>
+  
+<div class="col-4"><img id="picture1" src="https://images.pexels.com/photos/1903965/pexels-photo-1903965.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" width="30%" height="">
+  
+  </div>
+<div class="col-4"><img id="picture1" src="https://images.pexels.com/photos/1903965/pexels-photo-1903965.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" width="30%" height="">
+  
+  </div>
+</div>
+</div>
  
   <div id="contact">
   聯絡我
@@ -99,4 +135,31 @@
     
   </ul>
   
+    
  </div> 
+
+<div id="caaard" class="col-4">
+<div class="card">
+<div class="card-body">
+<h5 class="card-title">卡片</h5>
+<p>卡片內容1</p>
+  <img id="picture1" src="https://images.pexels.com/photos/1903965/pexels-photo-1903965.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" width="30%" height="">
+<a href="#" class="card-link">See more info</a>
+</div> /* body結尾 */
+</div> /* card1結尾 */
+
+<div class="card">
+<div class="card-body">
+<h5 class="card-title">卡片2</h5>
+<p>卡片內容2</p>
+  <img id="picture1" src="https://images.pexels.com/photos/1903965/pexels-photo-1903965.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" width="30%" height="">
+<a href="#" class="card-link">See more info</a>
+</div> /* body結尾 */
+</div> /* card2結尾 */
+
+</div>/* caaard結尾 */
+
+<div id="button" style="button">
+<img id="picture1" src="https://images.pexels.com/photos/1903965/pexels-photo-1903965.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" width="5%" height="" >
+  
+ </div>
